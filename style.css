@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main,
+footer {
+    width: 100%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.carousel-inner img{
+    height: 600px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    align-items: center;
+}
+
+#xbox {
+    width: 100px;
+    height: 110px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+
+.verde {
+    background-color: #0f9206;
+}
+
+.cinza-escuro {
+    background-color: #151517;
+}
+
+.cinza {
+    background-color: #6d6d6d;
+}
+
+.text-green {
+    color: #0f9206;
+}
+
+#mine {
+    height: 133px;
+}
+
+#xgames {
+    margin-top: 60px;
+    padding-right: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14vh;
+    height: 200px;
+}
+
+#games {
+    border: 1px solid black;
+    transition: 0.3s;
+    font-size: 40px;
+}
+#games img{
+    height: 500px;
+}
+#games .card-text {
+    font-size: 16px; 
+}
+
+#games:hover {
+    text-decoration: underline;
+    border: 1px solid white;
+}
+
+#botoes-nav {
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+#botoes-nav:hover {
+    font-size: 25px;
+}
+
+#odyssey img {
+    height: 575px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #xgames {
+        margin: 0;
+        padding: 40px 0 0 0;
+    }
+    #xgames p{
+        font-size: 20px;
+    }
+    #xbox{
+        margin-top: 20px;
+    }
+    #botoes-nav {
+        font-size: 0.9rem;
+    }
+
+    #games .card-text {
+        font-size: 12px; 
+    }
+    #games img{
+        height: 300px;
+    }
+    #botao-car{
+        margin-top: 270px;
+    }
+    .carousel-inner img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #xgames{
+        font-size: 10vh;
+        margin-top: 70px;
+    }
+    
+    #xgames h1{
+
+        margin: 0;
+    }
+    #xbox{
+        width: 80px;
+        height: 85px;
+        margin-top: 85px;
+        margin-bottom: 80px;
+
+    }
+    #odyssey img {
+        height: 700px;
+    }
+
+    #games {
+        width: 95%;
+        padding: 0%;
+        margin-left: 8px;
+    }
+
+    #botoes-nav {
+        font-size: 0.9rem;
+    }
+
+    #mine {
+        height: 120px;
+    }
+    #games .card-text {
+        font-size: 12px; 
+    }
+    #botao-car{
+        margin-top: 180px;
+    }
+    .carousel-inner img{
+        height: 300px;
+    }
+    
+}
